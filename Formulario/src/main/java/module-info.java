@@ -3,6 +3,6 @@ module com.example.formulario {
     requires javafx.fxml;
 
 
-    opens com.example.formulario to javafx.fxml;
-    exports com.example.formulario;
+    opens sample to javafx.fxml;
+    exports sample;
 }
